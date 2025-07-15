@@ -64,15 +64,12 @@ Parameters, Metrics, Metadata, Artifacts, Models
 
 ```Bash
 
-mlflow ui
-
+cd 02-Experiment Tracking
 mlflow ui --backend-store-uri sqlite:///mlflow.db #메타데이터를 저장할 위치 지정
 
 ```
 
-```
-
-```
+실험을 진행하는 모듈이 아닌 곳에서 실행하면 트래킹을 할 수 없다
 
 
 ```Bash
