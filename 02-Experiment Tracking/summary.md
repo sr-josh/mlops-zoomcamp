@@ -80,3 +80,25 @@ pip install -r requirements.txt
 
 https://hyperopt.github.io/hyperopt/getting-started/search_spaces/
 
+
+## Model Management
+
+Data Sourcing Labeling Versioning
+
+Model Management
+{
+    Experiment tracking
+    [Model Architecture Training Evaluation(Scaling HW)]
+
+    Model Versioning Deployment(also affect to labeling) (Scaling HW)
+}
+
+Prediction monitoring
+
+```Python
+# 1. mlflow log_artifact
+mlflow.log_artifact(local_path="models/lin_reg.bin", artifact_path="models")
+
+# 2. using framework's log_model - 어떤 프레임워크를 사용하든 MLflow Model 형태로 저장한 뒤 다양한 플랫폼에 배포할 수 있다. 
+mlflow.xgboost.log_model(booster, artifact_path="model_mlflow")
+```
