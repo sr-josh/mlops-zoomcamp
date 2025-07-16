@@ -77,3 +77,6 @@ conda create -n exp-tracking-env python=3.9.12
 conda activate exp-tracking-env
 pip install -r requirements.txt
 ```
+
+https://hyperopt.github.io/hyperopt/getting-started/search_spaces/
+
