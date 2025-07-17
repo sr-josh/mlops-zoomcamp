@@ -102,3 +102,20 @@ mlflow.log_artifact(local_path="models/lin_reg.bin", artifact_path="models")
 # 2. using framework's log_model - 어떤 프레임워크를 사용하든 MLflow Model 형태로 저장한 뒤 다양한 플랫폼에 배포할 수 있다. 
 mlflow.xgboost.log_model(booster, artifact_path="model_mlflow")
 ```
+
+
+
+## Model Registry
+
+새로운 모델은 어떤 점이 달라진 건지 환경은 어떠한지 라이브러리 버전은 어떤지 롤백할 모델이 무엇인지 등등
+
+여러 model을 관리할 때의 번거로움을 덜어주고 오류의 위험을 줄일 수 있다.
+
+실험 결과를 로컬 트래킹 서버에 로깅한 다음
+
+mlflow 모델 레지스트리에 모델을 등록해서 사용
+
+https://www.mlflow.org/docs/latest/ml/model-registry/#migrating-from-stages
+
+
+Tracking client
