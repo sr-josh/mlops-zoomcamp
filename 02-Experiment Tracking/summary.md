@@ -81,6 +81,13 @@ pip install -r requirements.txt
 https://hyperopt.github.io/hyperopt/getting-started/search_spaces/
 
 
+## autolog
+
+```python
+mlflow.autolog()
+#mlflow.xgboost.autolog()
+```
+
 ## Model Management
 
 Data Sourcing Labeling Versioning
