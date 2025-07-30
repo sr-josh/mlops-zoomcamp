@@ -6,8 +6,9 @@ load the data
 fit a DictVectorizer
 save the data
 
+
 ```bash
-python preprocessing.py --raw_data_path /data --dest_path ./output
+python preprocessing.py --raw_data_path /workspaces/mlops-zoomcamp/data --dest_path ./output
 ```
 
 3. Training
@@ -56,7 +57,9 @@ What's the best validation RMSE that you got? 5.335
 
 6. 최적의 모델을 모델 레지스트리에 프로모트
 
-The results from the hyperparameter optimization are quite good. So, we can assume that we are ready to test some of these models in production. In this exercise, you'll promote the best model to the model registry. We have prepared a script called register_model.py, which will check the results from the previous step and select the top 5 runs. After that, it will calculate the RMSE of those models on the test set (March 2023 data) and save the results to a new experiment called random-forest-best-models.
+The results from the hyperparameter optimization are quite good. So, we can assume that we are ready to test some of these models in production. 
+In this exercise, you'll promote the best model to the model registry. We have prepared a script called register_model.py, which will check the results from the previous step and select the top 5 runs. 
+After that, it will calculate the RMSE of those models on the test set (March 2023 data) and save the results to a new experiment called random-forest-best-models.
 
 Your task is to update the script register_model.py so that it selects the model with the lowest RMSE on the test set and registers it to the model registry.
 
@@ -64,4 +67,9 @@ Tip 1: you can use the method search_runs from the MlflowClient to get the model
 
 Tip 2: to register the model you can use the method mlflow.register_model and you will need to pass the right model_uri in the form of a string that looks like this: "runs:/<RUN_ID>/model", and the name of the model (make sure to choose a good one!).
 
-What is the test RMSE of the best model?
+What is the test RMSE of the best model? 5.567
+
+
+runs 전체가 실행되지 않아 메모리 문제 해결 위해 샘플 및 파라미터 제한
+
+

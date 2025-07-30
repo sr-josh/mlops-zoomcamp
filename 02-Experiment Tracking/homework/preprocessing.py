@@ -57,6 +57,11 @@ def run_data_prep(raw_data_path: str, dest_path: str, dataset: str = "green"):
         os.path.join(raw_data_path, f"{dataset}_tripdata_2023-03.parquet")
     )
 
+    df_train = df_train.sample(n=10000, random_state=42)
+    df_val = df_val.sample(n=3000, random_state=42)
+    df_test = df_test.sample(n=3000, random_state=42)
+
+
     # Extract the target
     target = 'duration'
     y_train = df_train[target].values
