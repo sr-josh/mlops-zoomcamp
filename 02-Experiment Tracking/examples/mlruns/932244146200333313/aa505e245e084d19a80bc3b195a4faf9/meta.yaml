@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/mlops-zoomcamp/02-Experiment%20Tracking/examples/mlruns/932244146200333313/aa505e245e084d19a80bc3b195a4faf9/artifacts
+end_time: 1753918370413
+entry_point_name: ''
+experiment_id: '932244146200333313'
+lifecycle_stage: active
+run_id: aa505e245e084d19a80bc3b195a4faf9
+run_name: awesome-bug-76
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753918365142
+status: 3
+tags: []
+user_id: codespace

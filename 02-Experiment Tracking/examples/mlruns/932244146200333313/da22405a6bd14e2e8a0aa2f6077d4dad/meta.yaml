@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/mlops-zoomcamp/02-Experiment%20Tracking/examples/mlruns/932244146200333313/da22405a6bd14e2e8a0aa2f6077d4dad/artifacts
+end_time: 1753918888603
+entry_point_name: ''
+experiment_id: '932244146200333313'
+lifecycle_stage: active
+run_id: da22405a6bd14e2e8a0aa2f6077d4dad
+run_name: honorable-conch-371
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753918888570
+status: 4
+tags: []
+user_id: codespace

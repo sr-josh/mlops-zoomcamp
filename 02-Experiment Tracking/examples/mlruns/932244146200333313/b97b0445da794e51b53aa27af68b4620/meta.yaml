@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/mlops-zoomcamp/02-Experiment%20Tracking/examples/mlruns/932244146200333313/b97b0445da794e51b53aa27af68b4620/artifacts
+end_time: 1753918906324
+entry_point_name: ''
+experiment_id: '932244146200333313'
+lifecycle_stage: active
+run_id: b97b0445da794e51b53aa27af68b4620
+run_name: carefree-moose-935
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753918904428
+status: 3
+tags: []
+user_id: codespace

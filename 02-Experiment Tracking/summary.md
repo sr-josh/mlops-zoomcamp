@@ -126,3 +126,18 @@ https://www.mlflow.org/docs/latest/ml/model-registry/#migrating-from-stages
 
 
 Tracking client
+
+https://gist.github.com/Qfl3x/ccff6b0708358c040e437d52af0c2e43
+
+## MLflow in practice
+
+
+### scenarios 
+1. A DS
+2. A cross-functional team with A DS
+3. Multiple DS on multiple ML models
+
+### configuring
+BE store - local fs, SQLAlchemy compatible DB
+Artifacts store - local fs, remote(s3)
+Tracking server - no, localhost, remote
