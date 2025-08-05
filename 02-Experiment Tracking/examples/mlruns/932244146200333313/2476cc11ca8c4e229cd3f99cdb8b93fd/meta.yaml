@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/mlops-zoomcamp/02-Experiment%20Tracking/examples/mlruns/932244146200333313/2476cc11ca8c4e229cd3f99cdb8b93fd/artifacts
+end_time: 1754351332021
+entry_point_name: ''
+experiment_id: '932244146200333313'
+lifecycle_stage: active
+run_id: 2476cc11ca8c4e229cd3f99cdb8b93fd
+run_name: bright-mole-249
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754351326905
+status: 3
+tags: []
+user_id: codespace
