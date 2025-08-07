@@ -142,3 +142,8 @@ https://gist.github.com/Qfl3x/ccff6b0708358c040e437d52af0c2e43
 BE store - local fs, SQLAlchemy compatible DB
 Artifacts store - local fs, remote(s3)
 Tracking server - no, localhost, remote
+
+
+* 
+X는 입력(독립 변수, feature)을 행렬로 표현 → 대문자로 표현해 다차원임을 강조
+y는 출력(종속 변수, target)을 벡터로 표현 → 소문자로 표현해 1차원임을 암시
